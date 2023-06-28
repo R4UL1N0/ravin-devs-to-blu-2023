@@ -1,6 +1,6 @@
-package ravin.modelos;
+package ravin.models;
 
-import ravin.enumeradores.TipoProduto;
+import ravin.enums.TipoProduto;
 
 public class Produto {
 	private int id;

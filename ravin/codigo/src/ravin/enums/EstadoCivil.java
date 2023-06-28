@@ -1,4 +1,4 @@
-package ravin.enumeradores;
+package ravin.enums;
 
 public enum EstadoCivil {
 	

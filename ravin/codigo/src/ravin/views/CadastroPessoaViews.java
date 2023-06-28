@@ -5,11 +5,11 @@ import java.util.Date;
 import javax.swing.JOptionPane;
 import javax.swing.JTextField;
 
-import ravin.enumeradores.EstadoCivil;
-import ravin.modelos.Cliente;
-import ravin.modelos.Funcionario;
-import ravin.modelos.Pessoa;
-import ravin.utilidade.DateUtils;
+import ravin.enums.EstadoCivil;
+import ravin.models.Cliente;
+import ravin.models.Funcionario;
+import ravin.models.Pessoa;
+import ravin.utils.DateUtils;
 
 public class CadastroPessoaViews {
     

@@ -1,4 +1,4 @@
-package ravin.modelos;
+package ravin.models;
 
 
 public class Cliente extends Pessoa {

@@ -1,8 +1,8 @@
-package ravin.modelos;
+package ravin.models;
 
 import java.util.List;
 
-import ravin.enumeradores.StatusComanda;
+import ravin.enums.StatusComanda;
 
 public class Comanda {
 

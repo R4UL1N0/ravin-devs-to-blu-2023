@@ -1,11 +1,11 @@
-package ravin.modelos;
+package ravin.models;
 
 import java.util.Date;
 
-import ravin.enumeradores.Cargo;
-import ravin.enumeradores.Disponibilidade;
-import ravin.enumeradores.Escolaridade;
-import ravin.enumeradores.EstadoCivil;
+import ravin.enums.Cargo;
+import ravin.enums.Disponibilidade;
+import ravin.enums.Escolaridade;
+import ravin.enums.EstadoCivil;
 
 public class Funcionario extends Pessoa {
 	

@@ -1,8 +1,8 @@
-package ravin.modelos;
+package ravin.models;
 
 import java.util.List;
 
-import ravin.enumeradores.StatusMesa;
+import ravin.enums.StatusMesa;
 
 public class Mesa {
 
