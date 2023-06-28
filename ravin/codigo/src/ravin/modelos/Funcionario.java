@@ -16,7 +16,7 @@ public class Funcionario extends Pessoa {
 	private int pis;
 	private Date dataAdmissao;
 	private Date dataDemissao;
-	private Disponibilidade disponibilidade;
+	private boolean disponibilidade;
 
 	
 	public Funcionario() {
@@ -24,7 +24,7 @@ public class Funcionario extends Pessoa {
 	}
 
 	public Funcionario(String rg, EstadoCivil estadoCivil, Escolaridade escolaridade, Cargo cargo, Date dataAdmissao,
-			Date dataDemissao, Disponibilidade disponibilidade, int pis) {
+			Date dataDemissao, boolean disponibilidade, int pis) {
 		super();
 		this.rg = rg;
 		this.estadoCivil = estadoCivil;
@@ -84,11 +84,11 @@ public class Funcionario extends Pessoa {
 		this.dataDemissao = dataDemissao;
 	}
 
-	public Disponibilidade getDisponibilidade() {
+	public boolean getDisponibilidade() {
 		return disponibilidade;
 	}
 
-	public void setDisponibilidade(Disponibilidade disponibilidade) {
+	public void setDisponibilidade(boolean disponibilidade) {
 		this.disponibilidade = disponibilidade;
 	}
 
