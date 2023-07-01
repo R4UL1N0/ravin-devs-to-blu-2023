@@ -22,7 +22,7 @@ public class MenuStringContents {
         return stringBuilder.toString();
     }
 
-    private static String montarSubMenuGeral(String selecionado) {
+    public static String montarSubMenuGeral(String selecionado) {
 
          StringBuilder stringBuilder = new StringBuilder();
 
@@ -30,7 +30,7 @@ public class MenuStringContents {
         stringBuilder.append(selecionado.toUpperCase());
         stringBuilder.append(" =============\n");
         stringBuilder.append("1 - Consultar\n");
-        stringBuilder.append("2 - Adicionar\n");
+        stringBuilder.append("2 - Criar novo\n");
         stringBuilder.append("3 - Alterar\n");
         stringBuilder.append("4 - Remover\n");
 
@@ -39,6 +39,8 @@ public class MenuStringContents {
 
     public static String montarSubFuncionario() {
         String subGeral = montarSubMenuGeral("Funcionário");
+
+
 
         return subGeral;
     }

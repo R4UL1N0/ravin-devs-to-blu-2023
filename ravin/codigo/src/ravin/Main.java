@@ -1,83 +1,25 @@
 package ravin;
 
 import java.sql.Timestamp;
-import java.text.DateFormat;
 import java.util.Date;
-import java.util.concurrent.atomic.AtomicInteger;
 
 import javax.swing.JOptionPane;
-import javax.swing.JTextField;
-
-import ravin.enums.Cargo;
-import ravin.enums.Escolaridade;
-import ravin.enums.EstadoCivil;
 import ravin.enums.TipoProduto;
-import ravin.models.Cliente;
-import ravin.models.Funcionario;
 import ravin.models.Pedido;
-import ravin.models.Pessoa;
 import ravin.models.Produto;
-import ravin.utils.DateUtils;
-import ravin.views.CadastroPessoaViews;
-import ravin.views.MenuViews;
+import ravin.views.MenuView;
 
 public class Main {
 
 	public static void main(String[] args) {
 
 		// Pessoa pessoa = CadastroPessoaViews.cadastrarPessoa();
-		MenuViews.showMenuPrincipal();
+		MenuView.showMenuPrincipal();
 
 		
 
 	}
 
-	
-
-	// public static Funcionario cadastrarFuncionario() {
-	// 	Pessoa pessoa = cadastrocadastrarPessoa();
-
-	// 	Funcionario funcionario = new Funcionario();
-	// 	funcionario.setRg(JOptionPane.showInputDialog("Digite o RG do funcionário:"));
-	// 	funcionario.setEstadoCivil(EstadoCivil.values()[Integer.parseInt(JOptionPane.showInputDialog(
-	// 			"Digite o estado civíl do funcionario: \n [1 - Solteiro \n 2 - Casado \n 3 - Viúvo \n 4 - Divorciado \n 5 - Separado]"))]);
-	// 	funcionario.setCargo(Cargo.values()[Integer.parseInt(JOptionPane.showInputDialog(
-	// 			"Digite o cargo do funcionário: \n 1 - Faxineiro \n 2 - Garçom \n 3 - Cozinheiro \n 4 - Gerente"))]);
-	// 	funcionario.setEscolaridade(Escolaridade.values()[Integer.parseInt(JOptionPane.showInputDialog(
-	// 			"Digite a escolaridade do funcionario: \n 1 - Fundamental \n 2 - Médio \n 3 - Superior "))]);
-	// 	funcionario.setPis(Integer.parseInt(JOptionPane.showInputDialog("Digite o PIS do funcionário")));
-	// 	funcionario.setDataAdmissao(new Date());
-
-	// 	funcionario.setId(pessoa.getId());
-	// 	funcionario.setCpf(pessoa.getCpf());
-	// 	funcionario.setEndereco(pessoa.getEndereco());
-	// 	funcionario.setDataNascimento(pessoa.getDataNascimento());
-	// 	funcionario.setOberservacao(pessoa.getOberservacao());
-	// 	funcionario.setTelefone(pessoa.getTelefone());
-
-	// 	return funcionario;
-	// }
-
-	// public static Cliente cadastrarCliente() {
-
-	// 	Pessoa pessoa = cadastrarPessoa();
-
-	// 	Cliente cliente = new Cliente();
-	// 	cliente.setId(0);
-	// 	cliente.setAlergias(JOptionPane.showInputDialog("Digite a lista de alergias do cliente"));
-	// 	cliente.setAtivo(
-	// 			Boolean.parseBoolean(JOptionPane.showInputDialog("O cliente está ativo? \n[1 - Sim \n 0 - Não]")));
-
-	// 	cliente.setId(pessoa.getId());
-	// 	cliente.setCpf(pessoa.getCpf());
-	// 	cliente.setEndereco(pessoa.getEndereco());
-	// 	cliente.setDataNascimento(pessoa.getDataNascimento());
-	// 	cliente.setOberservacao(pessoa.getOberservacao());
-	// 	cliente.setTelefone(pessoa.getTelefone());
-
-	// 	return cliente;
-
-	// }
 
 	public static Produto cadastrarProduto() {
 
